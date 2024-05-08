@@ -1,3 +1,3 @@
-FROM Python:latest
+FROM python:latest
 COPY app.py /
-CMD ["Python","./app.py"]
+CMD ["python","./app.py"]
